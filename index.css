@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: rgb(3, 3, 3);
+
+}
+
+
+#header {
+    text-align: center;
+    background-color: rgb(192, 100, 14);
+    padding: 0;
+    color: rgb(133, 14, 14);
+
+}
+
+#container {
+    background-color: rgb(192, 100, 14);
+    color: rgb(133, 14, 14);
+    max-width: 600px;
+    max-height: 800px;
+    margin: 10% auto;
+    box-shadow: -22px 6px rgb(133, 14, 14), -1em 0 5.4em rgb(133, 14, 14);
+
+}
+
+.containerKiev {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city {
+    padding-left: 25px;
+}
+
+.cityKiev {
+    padding-right: 29px;
+}
+
+.cityLondon {
+    padding-right: 14px;
+}
+
+.deg {
+    text-align: center;
+    align-items: center;
+}
+
+.image {
+    padding-right: 25px;
+}
+
+.details {
+    display: flex;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.speed {
+    padding-left: 25px;
+}
+
+.sunseet {
+    padding-right: 25px;
+}
+
+.wDirection {}
+
+.wSpeed {
+    border-right: 2px solid rgb(255, 252, 252);
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+hr {
+    margin: 0;
+}
+
+.pressure {
+    border-right: 2px solid rgb(255, 252, 252);
+    border-left: 2px solid rgb(255, 252, 252);
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.sunrise {
+    border-right: 2px solid rgb(255, 252, 252);
+    padding-right: 25px;
+}
+
+.wrapperBtn {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.temperature1 {
+    width: 50%;
+    padding-top: 10px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+.temperature2 {
+    width: 50%;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.arrowDetails {
+    margin: 0 auto;
+    display: flex;
+}
+
+.rightUrrow:hover {
+    background-color: rgb(238, 8, 8);
+}
+
+table {
+    color: rgb(255, 255, 255);
+}
+
+td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.hidden {
+    max-width: 600px;
+    max-width: 200px;
+    display: none;
+    position: absolute;
+    top: 248px;
+    right: 460px;
+}
+
+table {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.hiddenSecond {
+    max-width: 600px;
+    max-width: 200px;
+    display: none;
+    position: absolute;
+    top: 364px;
+    right: 460px;
+}
+
+.hiddenThird {
+    max-width: 600px;
+    max-width: 200px;
+    display: none;
+    position: absolute;
+    top: 482px;
+    right: 460px;
+
+}
